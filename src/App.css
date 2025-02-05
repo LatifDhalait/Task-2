@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+ 
+
+}
+.box1 {
+  width: 35%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-left: 2%;
+  position: relative; 
+ 
+}
+.river {
+  width: 35%;
+  height: 25%;
+  background-color: #ffffff;
+  border-radius: 50%;
+  border: 2px solid #3f3fff;
+  display: flex;
+}
+.river > div {
+  width: 90%;
+  height: 90%;
+  background-color: #3f3fff;
+  border-radius: 50%;
+  margin: auto;
+  color: white;
+  font-size: small;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.river > div > span {
+  font-size: 30px;
+  font-weight: bold;
+}
+.river > div > p {
+  letter-spacing: 1px;
+}
+
+.pipe-container {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.pipe {
+  width: 100%;
+  height: 3%;
+  background: rgb(203, 196, 196);
+  border-radius: 25px;
+  box-shadow: 0px 0px 3px 3px rgb(85, 85, 85) inset;
+}
+
+.right-box {
+  background-color: #3f3fff;
+  width: 20%;
+  height: 20%;
+}
+
+.pump-chart {
+  width: 200px;
+  height: 150px;
+  background-color: chocolate;
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+  text-transform: uppercase;
+  list-style-type: none;
+  font-size: large;
+  padding: 10px;
+}
+.pump-chart > li {
+  margin: 10px;
+}
+.pump-chart > li > span {
+  background-color: darkgrey;
+}
+
+.two-box{
+  background-color: aqua;
+  width: 50px;
+  height: 50px;
+  border: black 1px solid;
+  position: absolute;
+}
+
+.box2 {
+  width: 65%;
+  height: 100vh;
+  display: flex;
+  color: white;
+  border-radius: 50%;
+  margin-right: 10%;
+  border: orange 10px solid;
+}
+
+.motor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 67%;
+  height: max-content;
+  margin: auto;
+}
+
+.m1 {
+  display: flex;
+  width: 90%;
+}
+.start-stop-section {
+  width: 130px;
+  height: 130px;
+  border: none;
+  margin: 5px;
+  list-style-type: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+.start-stop-section > li {
+  background-color: #878790;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.redmotor {
+  background-image: url(../Images/motor.png);
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 10%;
+}
+
+.open-close-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.open-close-section > button {
+  width: 100px;
+  height: 30px;
+  background-color: #878790;
+  color: white;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.volve {
+  background-image: url(../Images/valve.png);
+  width: 100px;
+  height: 80px;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 47%;
+}
+.motor-pipe {
+  width: 100%;
+  height: 14%;
+  background: rgb(203, 196, 196);
+  border-radius: 25px;
+  box-shadow: 0px 0px 3px 3px rgb(85, 85, 85) inset;
+  margin-top: 8%;
+}
+.m2 {
+  display: flex;
+  width: 90%;
+}
+.m3 {
+  display: flex;
+  width: 90%;
+}
+.m4 {
+  display: flex;
+  width: 90%;
+}
+
+.pipe-vartical {
+  width: 2%;
+  height: 75%;
+  background: rgb(203, 196, 196);
+  box-shadow: 0px 0px 3px 3px rgb(85, 85, 85) inset;
+  border: 1px solid black;
+  position: absolute;
+  right: 21%;
+  top: 10%;
+  border-radius: 25px 0px 0px 0px;
+}
+
+.pipe-horizotal {
+  width: 20%;
+  height: 4%;
+  background: rgb(203, 196, 196);
+  border-radius: 25px;
+  box-shadow: 0px 0px 3px 3px rgb(85, 85, 85) inset;
+  border: 1px solid black;
+  position: absolute;
+  top: 10%;
+  right: 2%;
+  border-radius: 5px 0px 0px 20px;
+}
